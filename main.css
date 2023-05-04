@@ -1,0 +1,103 @@
+.field {
+    height: 900px;
+    width: 1500px;
+    position: absolute;
+    top: 60px;
+    left: 650px;
+    border-radius: 70px;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    -ms-border-radius: 70px;
+    -o-border-radius: 70px;
+    border-bottom-right-radius: 220px;
+    border-color: blue;
+}
+
+.day {
+    position: relative;
+    left: 150px;
+    font-size: 20px;
+}
+
+.day_input {
+    position: relative;
+    top: 80px;
+    right: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 40px;
+    left: 100px;
+    border-radius: 20px;
+}
+
+.month {
+    position: relative;
+    left: 400px;
+    font-size: 20px;
+}
+
+.month_input {
+    position: relative;
+    top: 80px;
+    right: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 40px;
+    left: 300px;
+    border-radius: 20px;
+}
+
+.year {
+    position: relative;
+    left: 600px;
+    font-size: 20px;
+}
+
+.year_input {
+    position: relative;
+    top: 80px;
+    right: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 40px;
+    left: 500px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+/*
+
+a {
+    text-decoration: none;
+    background-color: black;
+    position: relative;
+    left: 1300px;
+    top: 200px;
+    color: red;
+    font-size: 40px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+*/
+
+.circulaire {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    left: 1300px;
+    top: 200px;
+}
